@@ -1,0 +1,18 @@
+{
+  "name": "cyf-first-api",
+  "version": "1.0.0",
+  "description": "First API to be consumed for week 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cyf"
+  ],
+  "author": "Ekemini Bassey",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "node-fetch": "^2.6.7"
+  }
+}
