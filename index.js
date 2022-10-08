@@ -17,10 +17,10 @@ app.get('/luckynumber', (req, res) => {
 });
 
 app.get('/worstfoodfrom1', async (req, res) => {    
-    const response = await fetch(`${URL}worstfoodfrom2`);
-    const body = await response.text();
+    // const response = await fetch(`${URL}worstfoodfrom2`);
+    // const body = await response.text();
    
-    res.send(body);                                                       
+    res.send("body");                                                       
 });
 
 app.listen(port, () => {          
