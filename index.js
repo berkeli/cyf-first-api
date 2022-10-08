@@ -16,11 +16,11 @@ app.get('/luckynumber', (req, res) => {
     res.send(YOUR_LUCKY_NUMBER);                                                       
 });
 
-app.get('/worstfoodfrom1', (req, res) => {    
-    // const response = await fetch(`${URL}worstfoodfrom2`);
-    // const body = await response.text();
+app.get('/worstfoodfrom1', async (req, res) => {    
+    const response = await fetch(`${URL}worstfoodfrom2`);
+    const body = await response.text();
    
-    res.send("body");                                                       
+    res.send(body);                                                       
 });
 
 app.listen(port, () => {          
