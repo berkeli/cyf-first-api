@@ -6,7 +6,7 @@ const port = 5000;
 let YOUR_NAME = "ekemini"
 let YOUR_LUCKY_NUMBER = "3"
 
-let URL = "http://13.40.212.192:5001"
+let URL = "http://localhost:5001"
 
 app.get('/', (req, res) => {       
     res.send(`Welcome to ${YOUR_NAME}'s 1st API`);                                                        
