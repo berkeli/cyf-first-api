@@ -2,7 +2,7 @@ const express = require('express');
 const fetch = require('node-fetch');
 
 const app = express();             
-const port = 5002;                  
+const port = 5000;                  
 
 let YOUR_NAME = "Berkeli"
 let YOUR_LUCKY_NUMBER = "15"
